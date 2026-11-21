@@ -19,12 +19,13 @@ This repository contains the client-side web application used to manage a produc
 * **Library & Language:** React 19, TypeScript
 * **Build Tool:** Vite
 * **Styling:** Tailwind CSS v4
-* **Routing, HTTP & Validation:** React Router, Axios, Zod *(planned)*
+* **Routing:** React Router
+* **HTTP & Validation:** Axios, Zod *(planned)*
 
 ### Roadmap
 
 - [x] Initial project setup with React, TypeScript, Vite, and Tailwind CSS
-- [ ] Routing and main application layout
+- [x] Routing and main application layout
 - [ ] Connect to the ProdHub REST API and validate data
 - [ ] Product list view and product creation form
 - [ ] Edit products and update availability
@@ -66,12 +67,13 @@ Este repositorio contiene la aplicación web del lado del cliente para gestionar
 * **Librería y Lenguaje:** React 19, TypeScript
 * **Herramienta de compilación:** Vite
 * **Estilos:** Tailwind CSS v4
-* **Enrutamiento, HTTP y Validación:** React Router, Axios, Zod *(planificado)*
+* **Enrutamiento:** React Router
+* **HTTP y Validación:** Axios, Zod *(planificado)*
 
 ### Roadmap
 
 - [x] Configuración inicial del proyecto con React, TypeScript, Vite y Tailwind CSS
-- [ ] Enrutamiento y layout principal de la aplicación
+- [x] Enrutamiento y layout principal de la aplicación
 - [ ] Conexión con la REST API de ProdHub y validación de datos
 - [ ] Listado de productos y formulario de creación
 - [ ] Edición de productos y cambio de disponibilidad
