@@ -10,6 +10,7 @@ import {
 import ErrorMessage from "../components/ErrorMessage";
 import { getProductById, updateProduct } from "../services/ProductService";
 import type { Product } from "../types";
+import ProductForm from "../components/ProductForm";
 
 export async function loader({ params }: LoaderFunctionArgs) {
   if (params.id !== undefined) {
@@ -64,33 +65,7 @@ export default function EditProduct() {
       {error && <ErrorMessage>{error}</ErrorMessage>}
 
       <Form className="mt-10" method="POST">
-        <div className="mb-4">
-          <label className="text-white" htmlFor="name">
-            Product Name:
-          </label>
-          <input
-            id="name"
-            type="text"
-            className="mt-2 block w-full p-3 bg-gray-50 text-black"
-            placeholder="Product Name"
-            name="name"
-            defaultValue={product.name}
-          />
-        </div>
-        <div className="mb-4">
-          <label className="text-white" htmlFor="price">
-            Price:
-          </label>
-          <input
-            id="price"
-            type="number"
-            step="0.01"
-            className="mt-2 block w-full p-3 bg-gray-50 text-black"
-            placeholder="Product Price. Example: 200, 300"
-            name="price"
-            defaultValue={product.price}
-          />
-        </div>
+        <ProductForm product={product} />
 
         <div className="mb-4">
           <label className="text-white" htmlFor="availability">
@@ -113,7 +88,7 @@ export default function EditProduct() {
         <input
           type="submit"
           className="mt-5 w-full bg-indigo-700 hover:bg-indigo-800 p-2 text-white font-bold text-lg cursor-pointer rounded"
-          value="Register Product"
+          value="Save Changes"
         />
       </Form>
     </>
