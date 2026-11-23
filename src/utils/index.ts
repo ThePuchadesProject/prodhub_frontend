@@ -5,3 +5,7 @@ export function formatCurrency(amount: number) {
     trailingZeroDisplay: "stripIfInteger",
   }).format(amount);
 }
+
+export function toBoolean(str: string) {
+  return str.toLowerCase() === "true";
+}
