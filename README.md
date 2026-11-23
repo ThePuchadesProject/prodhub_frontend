@@ -28,8 +28,8 @@ This repository contains the client-side web application used to manage a produc
 - [x] Routing and main application layout
 - [x] Connect to the ProdHub REST API and validate data
 - [x] Product list view and product creation form
-- [ ] Edit products and update availability
-- [ ] Delete products from the catalog
+- [x] Edit products and update availability
+- [x] Delete products from the catalog
 
 ### Local Installation
 
@@ -82,8 +82,8 @@ Este repositorio contiene la aplicación web del lado del cliente para gestionar
 - [x] Enrutamiento y layout principal de la aplicación
 - [x] Conexión con la REST API de ProdHub y validación de datos
 - [x] Listado de productos y formulario de creación
-- [ ] Edición de productos y cambio de disponibilidad
-- [ ] Eliminación de productos del catálogo
+- [x] Edición de productos y cambio de disponibilidad
+- [x] Eliminación de productos del catálogo
 
 ### Instalación local
 
