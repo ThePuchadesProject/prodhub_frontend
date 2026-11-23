@@ -20,13 +20,13 @@ This repository contains the client-side web application used to manage a produc
 * **Build Tool:** Vite
 * **Styling:** Tailwind CSS v4
 * **Routing:** React Router
-* **HTTP & Validation:** Axios, Zod *(planned)*
+* **HTTP & Validation:** Axios, Valibot
 
 ### Roadmap
 
 - [x] Initial project setup with React, TypeScript, Vite, and Tailwind CSS
 - [x] Routing and main application layout
-- [ ] Connect to the ProdHub REST API and validate data
+- [x] Connect to the ProdHub REST API and validate data
 - [ ] Product list view and product creation form
 - [ ] Edit products and update availability
 - [ ] Delete products from the catalog
@@ -44,7 +44,13 @@ This repository contains the client-side web application used to manage a produc
    npm install
    ```
 
-3. Start the development server:
+3. Configure your environment variables using the template:
+   ```bash
+   cp .env.example .env.local
+   ```
+   Open `.env.local` and set `VITE_API_URL` to your backend server URL (for example, `http://localhost:4000`).
+
+4. Start the development server:
    ```bash
    npm run dev
    ```
@@ -68,13 +74,13 @@ Este repositorio contiene la aplicación web del lado del cliente para gestionar
 * **Herramienta de compilación:** Vite
 * **Estilos:** Tailwind CSS v4
 * **Enrutamiento:** React Router
-* **HTTP y Validación:** Axios, Zod *(planificado)*
+* **HTTP y Validación:** Axios, Valibot
 
 ### Roadmap
 
 - [x] Configuración inicial del proyecto con React, TypeScript, Vite y Tailwind CSS
 - [x] Enrutamiento y layout principal de la aplicación
-- [ ] Conexión con la REST API de ProdHub y validación de datos
+- [x] Conexión con la REST API de ProdHub y validación de datos
 - [ ] Listado de productos y formulario de creación
 - [ ] Edición de productos y cambio de disponibilidad
 - [ ] Eliminación de productos del catálogo
@@ -92,7 +98,13 @@ Este repositorio contiene la aplicación web del lado del cliente para gestionar
    npm install
    ```
 
-3. Inicia el servidor de desarrollo:
+3. Configura tus variables de entorno a partir de la plantilla:
+   ```bash
+   cp .env.example .env.local
+   ```
+   Abre `.env.local` y configura `VITE_API_URL` con la URL de tu servidor backend (por ejemplo, `http://localhost:4000`).
+
+4. Inicia el servidor de desarrollo:
    ```bash
    npm run dev
    ```
