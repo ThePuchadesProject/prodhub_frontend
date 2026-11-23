@@ -27,7 +27,7 @@ This repository contains the client-side web application used to manage a produc
 - [x] Initial project setup with React, TypeScript, Vite, and Tailwind CSS
 - [x] Routing and main application layout
 - [x] Connect to the ProdHub REST API and validate data
-- [ ] Product list view and product creation form
+- [x] Product list view and product creation form
 - [ ] Edit products and update availability
 - [ ] Delete products from the catalog
 
@@ -81,7 +81,7 @@ Este repositorio contiene la aplicación web del lado del cliente para gestionar
 - [x] Configuración inicial del proyecto con React, TypeScript, Vite y Tailwind CSS
 - [x] Enrutamiento y layout principal de la aplicación
 - [x] Conexión con la REST API de ProdHub y validación de datos
-- [ ] Listado de productos y formulario de creación
+- [x] Listado de productos y formulario de creación
 - [ ] Edición de productos y cambio de disponibilidad
 - [ ] Eliminación de productos del catálogo
 
